@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nord Coffee — премиальная городская кофейня в центре Берлина. Specialty coffee, свежая выпечка и спокойная атмосфера.">
+  <meta name="theme-color" content="#171715">
+  <meta name="robots" content="index, follow">
+  <meta name="format-detection" content="telephone=no">
+  <title>Nord Coffee — specialty coffee & slow mornings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Nord Coffee — на главную">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>NORD <em>COFFEE</em></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a class="nav-link active" href="#top">Главная</a>
+        <a class="nav-link" href="#menu">Меню</a>
+        <a class="nav-link" href="#about">О нас</a>
+        <a class="nav-link" href="#gallery">Галерея</a>
+        <a class="nav-link" href="#contact">Контакты</a>
+      </nav>
+
+      <a class="button button-small header-cta" href="#booking">Забронировать</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация">
+      <a href="#top">Главная</a>
+      <a href="#menu">Меню</a>
+      <a href="#about">О нас</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contact">Контакты</a>
+      <a class="button" href="#booking">Забронировать</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-image" role="img" aria-label="Уютный интерьер современной кофейни"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow hero-eyebrow reveal">SPECIALTY COFFEE · BREAKFAST · BERLIN</p>
+        <h1 class="reveal delay-1">Coffee.<br><i>Slowly.</i><br>Beautifully.</h1>
+        <p class="hero-copy reveal delay-2">Specialty coffee, свежая выпечка и немного времени без спешки — в самом сердце Берлина.</p>
+        <div class="hero-actions reveal delay-3">
+          <a class="button button-light" href="#menu">Посмотреть меню <span>↗</span></a>
+          <a class="text-link text-link-light" href="#booking">Забронировать столик <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span>Alexanderplatz 5 · Berlin</span>
+        <span class="meta-line"></span>
+        <span>Mo–Fr 08–21 · Sa–So 09–22</span>
+      </div>
+      <a class="scroll-cue" href="#menu" aria-label="Прокрутить к меню">
+        <span>SCROLL</span><i></i>
+      </a>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow">01 / MENU</p>
+            <h2>Простые вещи.<br><i>Идеально сделанные.</i></h2>
+          </div>
+          <p class="section-intro">Мы не усложняем то, что уже хорошо. Выбираем зерно, молоко и ингредиенты с тем же вниманием, с каким готовим каждую чашку.</p>
+        </div>
+
+        <div class="menu-layout">
+          <div class="menu-feature reveal">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85" alt="Чашка specialty coffee на деревянном столе" loading="lazy" decoding="async" width="1200" height="900">
+            <div class="feature-caption"><span>COFFEE</span><strong>Flat White</strong><em>4.20 €</em></div>
+          </div>
+
+          <div class="menu-list-wrap reveal delay-1">
+            <div class="menu-category">
+              <div class="category-title"><span>01</span><h3>Кофе</h3><i>COFFEE</i></div>
+              <ul class="menu-list">
+                <li><span>Espresso</span><small>2.50 €</small></li>
+                <li><span>Cappuccino</span><small>3.80 €</small></li>
+                <li><span>Flat White</span><small>4.20 €</small></li>
+                <li><span>Latte</span><small>4.00 €</small></li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <div class="category-title"><span>02</span><h3>Десерты</h3><i>SWEET</i></div>
+              <ul class="menu-list">
+                <li><span>Cheesecake</span><small>5.50 €</small></li>
+                <li><span>Tiramisu</span><small>5.00 €</small></li>
+                <li><span>Almond Croissant</span><small>3.80 €</small></li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <div class="category-title"><span>03</span><h3>Завтраки</h3><i>BREAKFAST</i></div>
+              <ul class="menu-list">
+                <li><span>Avocado Toast</span><small>8.90 €</small></li>
+                <li><span>Granola Bowl</span><small>7.50 €</small></li>
+                <li><span>Croissant & Coffee</span><small>6.50 €</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow">02 / OUR PLACE</p>
+          <div class="large-number">N°<br><span>01</span></div>
+          <h2>Место для тех,<br>кто <i>не спешит.</i></h2>
+          <p class="body-copy">Nord Coffee — небольшое городское пространство для тех, кто ценит хороший кофе и время без спешки.</p>
+          <p class="body-copy">Мы работаем с качественными сортами кофе, готовим напитки вручную и каждый день предлагаем свежую выпечку.</p>
+          <a class="text-link dark-link" href="#booking">Заглянуть к нам <span>↗</span></a>
+        </div>
+        <div class="about-image reveal delay-1">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1400&q=85" alt="Светлый интерьер кофейни Nord Coffee" loading="lazy" decoding="async" width="1400" height="900">
+          <span class="image-label">NORD / BERLIN</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="container">
+        <div class="benefits-grid">
+          <article class="benefit reveal"><span class="benefit-icon">01</span><h3>Specialty<br>Coffee</h3><p>Качественные зерна и профессиональная обжарка.</p></article>
+          <article class="benefit reveal delay-1"><span class="benefit-icon">02</span><h3>Fresh<br>Every Day</h3><p>Свежая выпечка и десерты каждый день.</p></article>
+          <article class="benefit reveal delay-2"><span class="benefit-icon">03</span><h3>Cozy<br>Atmosphere</h3><p>Спокойное пространство для встреч и работы.</p></article>
+          <article class="benefit reveal delay-3"><span class="benefit-icon">04</span><h3>Free<br>Wi-Fi</h3><p>Быстрый Wi-Fi для работы и учёбы.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="container">
+        <div class="section-heading gallery-heading reveal">
+          <div><p class="eyebrow">03 / GALLERY</p><h2>Один день<br><i>в Nord.</i></h2></div>
+          <p class="section-intro">Утренний свет, звук кофемолки, тёплый круассан и разговоры, которые не хочется заканчивать.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-a reveal"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1100&q=85" alt="Интерьер кофейни с деревянной мебелью" loading="lazy" decoding="async" width="1200" height="900"><figcaption>THE SPACE</figcaption></figure>
+          <figure class="gallery-item gallery-b reveal delay-1"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=85" alt="Бариста готовит кофе" loading="lazy" decoding="async" width="1200" height="900"><figcaption>THE CRAFT</figcaption></figure>
+          <figure class="gallery-item gallery-c reveal delay-2"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85" alt="Чашка кофе крупным планом" loading="lazy" decoding="async" width="1200" height="900"><figcaption>THE CUP</figcaption></figure>
+          <figure class="gallery-item gallery-d reveal"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1100&q=85" alt="Свежая выпечка" loading="lazy" decoding="async" width="1200" height="900"><figcaption>THE BAKES</figcaption></figure>
+          <figure class="gallery-item gallery-e reveal delay-1"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=85" alt="Гости общаются в кофейне" loading="lazy" decoding="async" width="1200" height="900"><figcaption>THE PEOPLE</figcaption></figure>
+          <figure class="gallery-item gallery-f reveal delay-2"><img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1100&q=85" alt="Вечерняя атмосфера кофейни" loading="lazy" decoding="async" width="1200" height="900"><figcaption>AFTER DARK</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section section-pad">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / WORDS</p><h2>Говорят<br><i>гости.</i></h2></div>
+        <div class="reviews-grid">
+          <article class="review-card reveal"><span class="quote-mark">“</span><div class="rating">★★★★★</div><p>«Очень спокойное место. Flat White отличный, а утром здесь особенно красиво из-за света.»</p><div class="review-author"><strong>Anna K.</strong><span>Berlin</span></div></article>
+          <article class="review-card review-card-featured reveal delay-1"><span class="quote-mark">“</span><div class="rating">★★★★★</div><p>«Зашёл случайно и остался на пару часов. Хороший кофе, приятная музыка и никакой суеты.»</p><div class="review-author"><strong>Jonas M.</strong><span>Berlin</span></div></article>
+          <article class="review-card reveal delay-2"><span class="quote-mark">“</span><div class="rating">★★★★★</div><p>«Любимое место для воскресного завтрака. Almond Croissant — отдельная причина прийти снова.»</p><div class="review-author"><strong>Sofia R.</strong><span>Berlin</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-section" id="booking">
+      <div class="booking-bg"></div>
+      <div class="container booking-grid">
+        <div class="booking-copy reveal">
+          <p class="eyebrow">05 / RESERVATION</p>
+          <h2>Оставьте<br>место для<br><i>хорошего дня.</i></h2>
+          <p>Столик для завтрака, встречи или пары часов с ноутбуком. Мы будем рады.</p>
+        </div>
+        <form class="booking-form reveal delay-1" id="booking-form" novalidate>
+          <div class="form-row">
+            <label>Имя<input type="text" name="name" autocomplete="name" placeholder="Ваше имя" required></label>
+            <label>Телефон<input type="tel" name="phone" autocomplete="tel" placeholder="+49 30 ..." required></label>
+          </div>
+          <div class="form-row">
+            <label>Дата<input type="date" name="date" required></label>
+            <label>Время<select name="time" required><option value="">Выберите</option><option>09:00</option><option>10:30</option><option>12:00</option><option>13:30</option><option>15:00</option><option>17:30</option><option>19:00</option><option>20:00</option></select></label>
+          </div>
+          <label>Количество гостей<select name="guests" required><option value="">Выберите количество</option><option>1 гость</option><option>2 гостя</option><option>3 гостя</option><option>4 гостя</option><option>5+ гостей</option></select></label>
+          <button class="button button-light form-submit" type="submit">Забронировать столик <span>↗</span></button>
+          <p class="form-status" id="booking-status" role="status" aria-live="polite"></p>
+          <p class="form-note">Нажимая кнопку, вы подтверждаете, что данные используются только для обработки бронирования.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">06 / FIND US</p>
+          <h2>До встречи<br><i>в Nord.</i></h2>
+          <div class="contact-details">
+            <div><span>АДРЕС</span><p>Alexanderplatz 5<br>10178 Berlin</p></div>
+            <div><span>ЧАСЫ</span><p>Пн–Пт: 08:00–21:00<br>Сб–Вс: 09:00–22:00</p></div>
+            <div><span>СВЯЗЬ</span><p><a href="tel:+493012345678">+49 30 12345678</a><br><a href="mailto:hello@nordcoffee.de">hello@nordcoffee.de</a></p></div>
+          </div>
+        </div>
+        <div class="map-card reveal delay-1" aria-label="Стилизованная карта расположения Nord Coffee">
+          <div class="map-grid"></div>
+          <div class="map-route"></div>
+          <div class="map-pin"><span>●</span><strong>NORD<br>COFFEE</strong></div>
+          <div class="map-label label-one">ALEXANDERPLATZ</div>
+          <div class="map-label label-two">SPANDAUER STR.</div>
+          <div class="map-label label-three">MÜNZSTRASSE</div>
+          <div class="map-scale">100 M</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand brand-footer" href="#top"><span class="brand-mark">N</span><span>NORD <em>COFFEE</em></span></a>
+      <p>Good coffee. Good people.<br>Good time.</p>
+      <div class="footer-nav"><a href="#menu">Меню</a><a href="#about">О нас</a><a href="#gallery">Галерея</a><a href="#booking">Бронь</a></div>
+      <div class="socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Nord Coffee">IG</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Nord Coffee">FB</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok Nord Coffee">TK</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Nord Coffee</span><span>Berlin · Germany</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
